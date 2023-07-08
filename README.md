@@ -3,3 +3,7 @@ This repository provides C++ source code for two object-oriented stack implement
 
 1. `arrayImplementation.cpp`: This file contains the implementation of a stack using an array. It demonstrates how to create and manipulate a stack data structure using array-based operations.
 2. `linkedListImplementation.cpp`: This file contains the implementation of a stack using a linked list. It showcases how to create and manipulate a stack data structure using linked list-based operations.
+3. `checkBalancedParentheses.cpp`: This code checks if parentheses are balanced in an expression or not.
+4. `evaluatePostfix.cpp`: This code evaluates a postfix expression.
+5. `evaluatePrefix.cpp`: This code evaluates a prefix expression.
+6. `infixToPostfix.cpp`: This code converts an infix expression to a postfix expression.
