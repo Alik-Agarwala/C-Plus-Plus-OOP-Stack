@@ -14,10 +14,12 @@ bool checkParenthesesBalanced(string expression)
         if (expression[i] == '(' || expression[i] == '{' || expression[i] == '[')
             s.push(expression[i]);
         else if (expression[i] == ')' || expression[i] == '}' || expression[i] == ']')
+        {
             if (s.empty() || !checkValidPair(s.top(), expression[i]))
                 return false;
             else
                 s.pop();
+        }
     return s.empty() ? true : false;
 }
 int main()
